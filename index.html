@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Movie List App</title>
+    <script scr="js/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+<body>
+    <h1 id="heading">Movie List Rating</h1>
+    <form id="new-form">
+        <div id="form-wrapper">
+            <div class="form-item">
+                <label for="movie" class="primary">Movie</label>
+                <input type="text" id="movie" required />
+            </div>
+            <div class="form-item">
+                <label for="director">Director</label>
+                <input type="text" id="director" required />
+            </div>
+            <div class="form-item">
+                <label for="rating" class="primary">Rating</label>
+                <input type="text" id="rating" required />
+
+            </div>
+        </div>
+        <button type="submit" value="submit">+ Add Details</button>
+        <button type="delete-all" value="delete">- Delete All</button>
+    </form>
+</body>
+</html>
